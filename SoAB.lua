@@ -1,5 +1,6 @@
 -- First GUI
 -- Made my Waza80#8017
+-- Skidded on fpyni#0001 - https://scriptblox.com/script/SKYDIVE-Off-A-TOWER!-INFINITE-MONEY-10495
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
@@ -56,7 +57,6 @@ ScriptTab:AddToggle(
     }
 )
 
--- ok dont cry its my first script OK?
 local format = function(String)
     String = String:gsub("%$", ''):gsub(" ", ''):gsub(",", "")
     multiplier = string.sub(String, -1)
